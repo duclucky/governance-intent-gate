@@ -31,6 +31,7 @@ EXPECTED_METHODS = {
 def run(command, *, capture=False):
     environment = os.environ.copy()
     environment["PYTHONUTF8"] = "1"
+    environment["PATH"] = str(SCRIPTS) + os.pathsep + environment.get("PATH", "")
     return subprocess.run(
         [str(item) for item in command],
         cwd=ROOT,

@@ -14,7 +14,7 @@ Lifecycle evidence: `https://explorer-studio-dev.genlayer.com/tx/0xa2feb1ec10cf5
 
 Finalized consequence: `https://explorer-studio-dev.genlayer.com/tx/0x8b30a034d56acdfd726a890e350e05e9bfd0ec2e1a42fcb1422c21a21aeebfa9`
 
-Contract/test counts: `1 Intelligent Contract; 28 automated tests (22 direct, 5 local SDK/parser/source-policy, 1 Studio Dev read-only integration).`
+Contract/test counts: `1 Intelligent Contract; 29 automated tests (22 direct, 6 local SDK/parser/source-policy/CI-environment, 1 Studio Dev read-only integration).`
 
 Description:
 

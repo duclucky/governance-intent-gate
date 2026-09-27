@@ -1,10 +1,12 @@
 import json
+import os
 import subprocess
 from pathlib import Path
 
 from genlayer_py.abi import calldata
 from genlayer_py.contracts.utils import make_calldata_object
 from genlayer_py.types import CalldataAddress
+from scripts import check
 
 
 ROOT = Path(__file__).parents[2]
@@ -55,3 +57,17 @@ def test_configure_addresses_remain_native_address_values():
     encoded = calldata.encode(make_calldata_object(method="configure", args=WRITE_SAMPLES["configure"]))
     decoded = calldata.decode(encoded)
     assert all(isinstance(decoded["args"][index], CalldataAddress) for index in (2, 3, 4))
+
+
+def test_check_runner_exposes_venv_tools_on_path(monkeypatch):
+    observed = {}
+
+    def fake_run(*args, **kwargs):
+        observed.update(kwargs)
+        return subprocess.CompletedProcess(args[0], 0)
+
+    monkeypatch.setattr(check.subprocess, "run", fake_run)
+    check.run([check.LINTER, "--version"])
+
+    first_path_entry = observed["env"]["PATH"].split(os.pathsep)[0]
+    assert Path(first_path_entry).resolve() == check.SCRIPTS.resolve()

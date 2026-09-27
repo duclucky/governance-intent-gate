@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "verified_at": "2026-09-27T14:17:26Z",
+  "verified_at": "2026-09-27T14:22:46Z",
   "contract_source_sha256": "29264ddec8cb6a88fcaf5e7bb9bd0bcc551815083aac62837f44de0023db0c74",
   "requirements_sha256": "725718b331d6f1c9f30dbcf47f46a4429e98f1cf941ceb013b9452a0740d7ce2",
   "package_json_sha256": "de6e066757d2bf64711282c7242594916fa498f45b4fd324cb00761b364bb250",
@@ -10,7 +10,7 @@
     "sdk_semantic_validation": "PASS",
     "strict_typecheck": "PASS",
     "local_schema": "PASS: 14 methods, 5 view, 9 write, 0 payable",
-    "local_direct_and_sdk_tests": "PASS: 27",
+    "local_direct_and_sdk_tests": "PASS: 28",
     "studio_dev_read_only_integration": "PASS: 1 canonical-state integration test",
     "studio_dev_read_only_preflight": "PASS: chain 61997, exact schema match, 9 native ABI write roundtrips, live fee estimate"
   },

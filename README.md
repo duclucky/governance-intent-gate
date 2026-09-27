@@ -32,7 +32,7 @@ The deployment and all seven lifecycle writes reached `FINALIZED` with `FINISHED
 
 ## Verification
 
-The repository contains one contract and 28 automated tests: 22 direct contract tests, five local SDK/parser/source-policy tests, and one read-only Studio Dev integration test.
+The repository contains one contract and 29 automated tests: 22 direct contract tests, six local SDK/parser/source-policy/CI-environment tests, and one read-only Studio Dev integration test.
 
 ```powershell
 py -3.12 -m venv .venv
