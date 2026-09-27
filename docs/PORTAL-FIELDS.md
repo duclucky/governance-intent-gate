@@ -4,9 +4,9 @@ Submission category: `Intelligent Contracts`
 
 Project name: `Governance Intent Gate`
 
-Repository URL: `PENDING_PUBLICATION_AUTHORIZATION`
+Repository URL: `https://github.com/duclucky/governance-intent-gate`
 
-Successful CI URL: `PENDING_PUBLICATION_AUTHORIZATION`
+Successful CI URL: `https://github.com/duclucky/governance-intent-gate/actions/runs/36325722366`
 
 Primary contract Explorer: `https://explorer-studio-dev.genlayer.com/address/0x3f6AE21DF18DF4104DD3b0a5596612B9C17240D2`
 
@@ -32,4 +32,4 @@ Limitations:
 
 > The contract does not prove a live DAO vote, decode arbitrary calldata or bytecode, prove hidden runtime behavior, execute modeled calls, move value, or block an external executor without an adapter. The published Studio Dev fixtures are synthetic integration evidence, not adoption evidence. Actual fee use/refund was not exposed by the sanitized receipt and is not claimed.
 
-Submission state: `EVIDENCE_LOCKED`. Replace both pending publication fields with verified public URLs and re-run public-hygiene plus CI checks before advancing to `SUBMISSION_READY`. Do not perform final Portal Submit without explicit action-time authorization.
+Submission state: `SUBMISSION_READY`. Public repository and successful CI are verified. Final Portal Submit remains unperformed and requires separate explicit action-time authorization.
