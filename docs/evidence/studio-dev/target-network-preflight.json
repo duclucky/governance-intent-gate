@@ -1,0 +1,52 @@
+{
+  "capability_boundaries": {
+    "live_llm_consensus": "not proven by read-only preflight; requires finalized lifecycle evidence",
+    "local_llm_json_decode_and_fail_closed_paths": "covered by direct tests",
+    "web_fetch": "not used by this contract"
+  },
+  "chain_id": 61997,
+  "contract_source_sha256": "29264ddec8cb6a88fcaf5e7bb9bd0bcc551815083aac62837f44de0023db0c74",
+  "fee_estimate": {
+    "distribution": {
+      "appeal_rounds": "0",
+      "execution_budget_per_round": "25000000000000000",
+      "leader_timeunits": "100",
+      "max_price_gen_per_time_unit": "2",
+      "receipt_fee_max_gas_price": "300000000",
+      "rotations": [
+        "3"
+      ],
+      "storage_fee_max_gas_price": "300000000",
+      "validator_timeunits": "200"
+    },
+    "fee_value": "100000000000010352",
+    "policy": {
+      "enabled": true,
+      "execution_budget_floor": "76548000000000",
+      "gen_per_time_unit": "1",
+      "receipt_gas_price": "250000000",
+      "storage_unit_price": "250000000",
+      "time_unit_overlay_bps": "1500"
+    }
+  },
+  "gas_price_wei": "0",
+  "method_count": 14,
+  "native_abi_roundtrip_write_count": 9,
+  "network": "studio-dev",
+  "retrieved_at": "2026-09-27T12:45:32.087706Z",
+  "rpc_url": "https://studio-dev.genlayer.com/api",
+  "runner": "py-genlayer:5jycge4q8k23462jtb0b9fyey1s9qz928sz2nbrd9mg4sxqg2qng",
+  "schema_match": true,
+  "schema_version": "1.0",
+  "write_methods": [
+    "activate",
+    "attest_batch",
+    "attest_proposal",
+    "configure",
+    "consume_authorization",
+    "create_case",
+    "expire_case",
+    "request_review",
+    "retry_review"
+  ]
+}

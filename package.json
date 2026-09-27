@@ -1,0 +1,14 @@
+{
+  "name": "governance-intent-gate",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Contract-only GenLayer governance intent authorization primitive",
+  "scripts": {
+    "check": "\".venv\\Scripts\\python.exe\" scripts/check.py",
+    "preflight": "\".venv\\Scripts\\python.exe\" scripts/preflight.py",
+    "deploy:resume": "\".venv\\Scripts\\python.exe\" scripts/deployment.py",
+    "demo:resume": "\".venv\\Scripts\\python.exe\" scripts/lifecycle.py",
+    "test:direct": "\".venv\\Scripts\\python.exe\" -m pytest tests/direct -q",
+    "test:integration": "\".venv\\Scripts\\python.exe\" -m pytest tests/integration -q --network studio_devnet"
+  }
+}

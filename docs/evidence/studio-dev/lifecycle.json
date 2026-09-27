@@ -1,0 +1,150 @@
+{
+  "authority_addresses": {
+    "decoder_authority": "0x45248be151f7f7e230150db23774733cd966eb45",
+    "governance_authority": "0xc495ef51618d03267a1f227afe5b27b38c748272",
+    "proposal_authority": "0x45ad397c438397a702b53a7499a78d08961d39db"
+  },
+  "boundaries": [
+    "This synthetic lifecycle proves contract behavior on Studio Dev, not DAO adoption.",
+    "The contract does not execute the modeled external calls or prove hidden runtime behavior.",
+    "Fee reserve values are recorded per transaction; actual fee use/refund is not exposed and is not claimed."
+  ],
+  "canonical_consequence": {
+    "can_consume_after_consequence": false,
+    "consumed": true,
+    "meaning": "The exact digest/revision/nonce-bound internal authorization was consumed once.",
+    "status": "CONSUMED"
+  },
+  "case_id": "portal-demo-29264dde",
+  "chain_id": 61997,
+  "contract_address": "0x3f6AE21DF18DF4104DD3b0a5596612B9C17240D2",
+  "exact_commitments": {
+    "batch_digest": "8629effeb2016e901c8efeb1033b43c5a05211b741cbe9a12b3ad25e8bef90bf",
+    "proposal_digest": "94d82ba5483de4baa7b39673534b19c7319f4e401fb859adae3ee18180b9fe84"
+  },
+  "finalized_transactions": {
+    "activate": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_result": "FINISHED_WITH_RETURN",
+      "fee_reserve_wei": "378490800010352",
+      "fee_use_refund": "Not exposed by the sanitized Studio Dev receipt; no amount is claimed.",
+      "finalized_at": "2026-09-27T12:35:20.605769Z",
+      "lifecycle_outcome": "accepted",
+      "lifecycle_state": "finalized",
+      "method": "activate",
+      "status": "FINALIZED",
+      "submitted_at": "2026-09-27T12:34:42.050326Z",
+      "transaction_id": "0x8370856ece62c6c73937ce819b601fb09676e381e8fe9d97fd2b8bffed2a6d67"
+    },
+    "attest_batch": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_result": "FINISHED_WITH_RETURN",
+      "fee_reserve_wei": "378531600010352",
+      "fee_use_refund": "Not exposed by the sanitized Studio Dev receipt; no amount is claimed.",
+      "finalized_at": "2026-09-27T12:37:48.518505Z",
+      "lifecycle_outcome": "accepted",
+      "lifecycle_state": "finalized",
+      "method": "attest_batch",
+      "status": "FINALIZED",
+      "submitted_at": "2026-09-27T12:37:12.817831Z",
+      "transaction_id": "0xec478d45f4cc9c383889be27e25237940ccbf0317b509c5ec64499f1a55c1699"
+    },
+    "attest_proposal": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_result": "FINISHED_WITH_RETURN",
+      "fee_reserve_wei": "378514800010352",
+      "fee_use_refund": "Not exposed by the sanitized Studio Dev receipt; no amount is claimed.",
+      "finalized_at": "2026-09-27T12:36:55.512396Z",
+      "lifecycle_outcome": "accepted",
+      "lifecycle_state": "finalized",
+      "method": "attest_proposal",
+      "status": "FINALIZED",
+      "submitted_at": "2026-09-27T12:36:22.855380Z",
+      "transaction_id": "0xbda5c663d7bcfe94b624236ba517c0ff6ded1d8d37d35e834c84cb65b59f856d"
+    },
+    "configure": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_result": "FINISHED_WITH_RETURN",
+      "fee_reserve_wei": "378499200010352",
+      "fee_use_refund": "Not exposed by the sanitized Studio Dev receipt; no amount is claimed.",
+      "finalized_at": "2026-09-27T12:34:21.880092Z",
+      "lifecycle_outcome": "accepted",
+      "lifecycle_state": "finalized",
+      "method": "configure",
+      "status": "FINALIZED",
+      "submitted_at": "2026-09-27T12:33:47.074454Z",
+      "transaction_id": "0x54671e14ab13d0ae7181db6083015fa2e59f8fe6aee5147fe0f78c4bee1871bf"
+    },
+    "consume_authorization": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_result": "FINISHED_WITH_RETURN",
+      "fee_reserve_wei": "378540000010352",
+      "fee_use_refund": "Not exposed by the sanitized Studio Dev receipt; no amount is claimed.",
+      "finalized_at": "2026-09-27T12:39:40.285232Z",
+      "lifecycle_outcome": "accepted",
+      "lifecycle_state": "finalized",
+      "method": "consume_authorization",
+      "status": "FINALIZED",
+      "submitted_at": "2026-09-27T12:39:01.583271Z",
+      "transaction_id": "0x8b30a034d56acdfd726a890e350e05e9bfd0ec2e1a42fcb1422c21a21aeebfa9"
+    },
+    "create_case": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_result": "FINISHED_WITH_RETURN",
+      "fee_reserve_wei": "378513600010352",
+      "fee_use_refund": "Not exposed by the sanitized Studio Dev receipt; no amount is claimed.",
+      "finalized_at": "2026-09-27T12:36:13.347788Z",
+      "lifecycle_outcome": "accepted",
+      "lifecycle_state": "finalized",
+      "method": "create_case",
+      "status": "FINALIZED",
+      "submitted_at": "2026-09-27T12:35:40.313924Z",
+      "transaction_id": "0xba56c33b62bdba6287af5ea0d7b91e09a6a9eb2ef1ecd36feea9bf4c4a46daf6"
+    },
+    "request_review_1": {
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_result": "FINISHED_WITH_RETURN",
+      "fee_reserve_wei": "382437600010352",
+      "fee_use_refund": "Not exposed by the sanitized Studio Dev receipt; no amount is claimed.",
+      "finalized_at": "2026-09-27T12:38:44.888977Z",
+      "lifecycle_outcome": "accepted",
+      "lifecycle_state": "finalized",
+      "method": "request_review",
+      "status": "FINALIZED",
+      "submitted_at": "2026-09-27T12:38:04.548335Z",
+      "transaction_id": "0xa2feb1ec10cf521d33d4a350b29a290e2090cd6bcbe8d8c738009563a0db0b29"
+    }
+  },
+  "network": "studio-dev",
+  "schema_version": "1.0",
+  "semantic_result": {
+    "authorization_nonce": 1,
+    "batch_digest": "8629effeb2016e901c8efeb1033b43c5a05211b741cbe9a12b3ad25e8bef90bf",
+    "batch_revision": 1,
+    "normalized_result": {
+      "directive_ids": [
+        "d-limit",
+        "d-transfer"
+      ],
+      "discrepancy_codes": [],
+      "edges": [
+        {
+          "directive_id": "d-limit",
+          "effect_id": "e-limit"
+        },
+        {
+          "directive_id": "d-transfer",
+          "effect_id": "e-transfer"
+        }
+      ],
+      "effect_ids": [
+        "e-limit",
+        "e-transfer"
+      ],
+      "verdict": "CONFORMANT"
+    },
+    "review_attempt": 1,
+    "status": "AUTHORIZED"
+  },
+  "verified_at": "2026-09-27T12:39:42.238697Z"
+}

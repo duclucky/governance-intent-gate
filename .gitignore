@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.gltest_cache/
+artifacts/
+*.pyc
+.env
+.env.*
+!.env.example
+docs/evidence/studio-dev/private/
+docs/evidence/studio-dev/deployment-state.json
+docs/evidence/studio-dev/lifecycle-state.json

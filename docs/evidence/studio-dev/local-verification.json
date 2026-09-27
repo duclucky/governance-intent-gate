@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "verified_at": "2026-09-27T12:47:19Z",
+  "contract_source_sha256": "29264ddec8cb6a88fcaf5e7bb9bd0bcc551815083aac62837f44de0023db0c74",
+  "requirements_sha256": "2e0c8b03afe273e36c4aba73e3cdfb4a0a5e1f7ed0a2b7a677dde09255d007f2",
+  "package_json_sha256": "de6e066757d2bf64711282c7242594916fa498f45b4fd324cb00761b364bb250",
+  "target_network_preflight_sha256": "e6cccaeed1b0589588cc0588b56c6a23fd232bc25efc618b5e0e491fa902cef3",
+  "checks": {
+    "genvm_lint": "PASS",
+    "sdk_semantic_validation": "PASS",
+    "strict_typecheck": "PASS",
+    "local_schema": "PASS: 14 methods, 5 view, 9 write, 0 payable",
+    "local_direct_and_sdk_tests": "PASS: 27",
+    "studio_dev_read_only_integration": "PASS: 1 canonical-state integration test",
+    "studio_dev_read_only_preflight": "PASS: chain 61997, exact schema match, 9 native ABI write roundtrips, live fee estimate"
+  },
+  "boundaries": [
+    "Local checks do not prove Studio Dev deployment, consensus, finality, or a semantic result.",
+    "The read-only target preflight does not prove live LLM execution; that requires finalized lifecycle evidence.",
+    "The GitHub rate-limit warning affected only latest-version discovery; the pinned runner was resolved from the local verified cache and separately accepted by Studio Dev schema extraction."
+  ]
+}
