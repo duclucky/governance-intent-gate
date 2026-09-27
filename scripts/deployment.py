@@ -121,6 +121,11 @@ def save(path, value):
 def main():
     source = CONTRACT.read_bytes()
     source_hash = hashlib.sha256(source).hexdigest()
+    existing_public_evidence = (
+        json.loads(DEPLOYMENT_PATH.read_text(encoding="utf-8"))
+        if DEPLOYMENT_PATH.is_file()
+        else {}
+    )
     identity = {
         "network": NETWORK,
         "chain_id": CHAIN_ID,
@@ -191,6 +196,8 @@ def main():
         "explorer_url": "https://explorer-studio-dev.genlayer.com/tx/" + tx_id,
         "contract_explorer_url": "https://explorer-studio-dev.genlayer.com/address/" + projection["contract_address"],
     }
+    if existing_public_evidence.get("source_commit"):
+        deployment["source_commit"] = existing_public_evidence["source_commit"]
     save(DEPLOYMENT_PATH, deployment)
     state["status"] = "FINALIZED"
     state["contract_address"] = projection["contract_address"]

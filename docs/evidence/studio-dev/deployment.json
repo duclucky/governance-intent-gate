@@ -11,7 +11,7 @@
   "explorer_url": "https://explorer-studio-dev.genlayer.com/tx/0x10709da2c3ff42199c63e004e5ee424307ad82bd1299320cea8d5343dd07c154",
   "fee_reserve_wei": "100000000000010352",
   "fee_use_refund": "Not exposed by the sanitized Studio Dev receipt; no amount is claimed.",
-  "finalized_at": "2026-09-27T12:44:59.269834Z",
+  "finalized_at": "2026-09-27T14:11:04.006351Z",
   "lifecycle_outcome": "accepted",
   "lifecycle_state": "finalized",
   "network": "studio-dev",
@@ -19,6 +19,7 @@
   "rpc_url": "https://studio-dev.genlayer.com/api",
   "runner": "py-genlayer:5jycge4q8k23462jtb0b9fyey1s9qz928sz2nbrd9mg4sxqg2qng",
   "schema_version": "1.0",
+  "source_commit": "8d16c6994d0918e72ff064780b9e9d3d580f4cd1",
   "submitted_at": "2026-09-27T12:30:32.292007Z",
   "transaction_id": "0x10709da2c3ff42199c63e004e5ee424307ad82bd1299320cea8d5343dd07c154"
 }
